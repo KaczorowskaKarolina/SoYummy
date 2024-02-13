@@ -2,7 +2,7 @@
   "name": "parcel-project-template",
   "version": "1.1.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "homepage": "https://kaczorowskakarolina.github.io/SoYummy",
   "scripts": {
     "dev": "parcel src/*.html",
