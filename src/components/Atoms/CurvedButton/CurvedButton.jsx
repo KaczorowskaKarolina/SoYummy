@@ -1,6 +1,6 @@
 import styles from './CurvedButton.module.css';
 
-export const Button = ({ title, type = 'button', isGreen = false, onClick = () => {} }) => {
+export const CurvedButton = ({ title, type = 'button', isGreen = false, onClick = () => {} }) => {
   const classes = `${styles.CurvedButton} ${isGreen && styles.green}`;
   return (
     <button className={classes} type={type} onClick={onClick}>
