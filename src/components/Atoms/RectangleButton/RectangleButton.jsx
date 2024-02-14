@@ -1,7 +1,7 @@
 import styles from './RectangleButton.module.css';
 
 export const RectangleButton = ({ title, type = 'button', size, onClick = () => {} }) => {
-  const classes = `${styles.RectangleButton} ${size}`;
+  const classes = `${styles.RectangleButton} ${styles[`${size}`]}`;
   return (
     <button className={classes} type={type} onClick={onClick}>
       {title}
