@@ -4,7 +4,7 @@ import { logIn } from '#controllers/logIn.js';
 import { signUp } from '#controllers/signUp.js';
 import { logout } from '#controllers/logout.js';
 import { verify } from '#controllers/verify.js';
-import { authMiddleware } from '#middlewares/jwt.js';
+import { authMiddleware } from '#middlewares/authMiddleware.js';
 import { resendVerifyEmail } from '#controllers/resendVerifyEmail.js';
 
 const router = express.Router();
