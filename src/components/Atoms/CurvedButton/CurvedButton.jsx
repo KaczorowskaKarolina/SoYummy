@@ -1,7 +1,7 @@
 import styles from './CurvedButton.module.css';
 
-export const CurvedButton = ({ title, type = 'button', isGreen = false, onClick = () => {} }) => {
-  const classes = `${styles.CurvedButton} ${isGreen && styles.green}`;
+export const CurvedButton = ({ title, type = 'button', greenOrBlack, onClick = () => {} }) => {
+  const classes = `${styles.CurvedButton} ${styles[`${greenOrBlack}`]}`;
   return (
     <button className={classes} type={type} onClick={onClick}>
       {title}
@@ -17,8 +17,8 @@ export const CurvedButton = ({ title, type = 'button', isGreen = false, onClick 
 // when decalring component
 
 // Button is by default transparent,
-// so if you need it to be green add
-// attribute isGreen with boolean value true
+// so if you need it to be green or black add
+// attribute greenOrBlack with string value 'green' or 'black'
 // when decalring component
 
 // onClick is obvious. By default this prop is an empty function so
