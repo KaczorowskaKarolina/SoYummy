@@ -1,0 +1,17 @@
+.CurvedButton {
+  padding: 20px 52px;
+  border-radius: 24px 44px;
+  border: 1px solid var(--secondary-color);
+  background-color: transparent;
+  color: var(--primary-color);
+}
+
+.green {
+  background-color: var(--secondary-color);
+  color: var(--main-color);
+}
+
+.darkMode {
+  background-color: var(--primary-color);
+  color: var(--main-color);
+}
