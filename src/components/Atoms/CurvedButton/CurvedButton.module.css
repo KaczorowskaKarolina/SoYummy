@@ -6,12 +6,31 @@
   color: var(--primary-color);
 }
 
+.CurvedButton:hover {
+  background-color: var(--secondary-color);
+  color: var(--main-color);
+}
+
 .green {
   background-color: var(--secondary-color);
   color: var(--main-color);
 }
 
+.green:hover {
+  background-color: var(--primary-color);
+}
+
+.black {
+  background-color: var(--primary-color);
+  color: var(--main-color);
+}
+
+.black:hover {
+  background-color: var(--secondary-color);
+}
+
 .darkMode {
   background-color: var(--primary-color);
+  border-color: var(--primary-color);
   color: var(--main-color);
 }
